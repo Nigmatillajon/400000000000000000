@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table3</title>
+    <style>
+        body{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<body>
+    <br><br><br><br>
+    <table align="center">
+        <tr>
+          <td style="background-color: burlywood;"><label for="t1">Ismingiz:</label></td>
+          <td>
+            <input
+              type="text"
+              id="t1"
+              size="25"
+              placeholder="Ismingiz"
+              spellcheck="true"
+              maxlength="15"
+              minlength="4"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          
+          <td style="background-color: aqua;"><label for="E1">Pochtangiz:</label></td>
+          <td>
+            <input
+              type="email"
+              id="E1"
+              size="25"
+              placeholder="Email"
+              spellcheck="true"
+              required
+            />
+          </td>
+        </tr>
+          <td style="background-color: blueviolet;"><label for="s1">Telefoningiz:</label></td>
+          <td><input
+            type="number"
+            id="s1"
+            placeholder="Telefon:+998999999999"
+            spellcheck="true"
+          /></td>
+        </td></tr>
+        <tr><td colspan="2">
+    <fieldset style="background-color: brown;">
+        <legend>Jinsingiz:</legend>
+        <input type="radio" id="r2" name="Jinsingiz" checked /><label for="r2"
+          >Erkak</label
+        >
+        <input type="radio" id="r2" name="Jinsingiz" /><label for="r2"
+          >Ayol</label
+        >
+        <input type="radio" id="r2" name="Jinsingiz" /><label for="r2"
+          >Odammasman</label
+        >
+      </fieldset>
+        </td></tr>
+        <tr><td colspan="2">
+          <fieldset style="background-color: blue;">
+            <legend>Qiziqishingiz:</legend>
+            <input type="checkbox" id="r3" /><label for="r3">Iqtisod</label>
+            <input type="checkbox" id="r3" /><label for="r3">IT</label>
+            <input type="checkbox" id="r3" /><label for="r3">Marketing</label>
+          </fieldset>
+          <form action="r3"></form>    
+        </td></tr>
+        <tr style="background-color: yellowgreen;"><td><label for="ds1">Tug'ilgan sana:</label></td>
+        <td><input type="date" spellcheck="true" id="ds1" />
+        </td></tr>
+        <tr spellcheck="true">
+        <tr style="background-color: wheat;"><td><label for="qw1">Parolni Kiriting:</label></td>
+        <td><input type="password" /></td>
+        </tr spellcheck="true">
+        <tr style="background-color: wheat;"><td><label for="qw1">Parolni Takrorlang</label></td>
+        <td><input type="password" /></td>
+        </tr>
+        <tr style="background-color: tomato;"><td><label for="x1">Habar:</label></td>
+        <td><textarea id="x1" cols="50" rows="5"></textarea></td>
+      </tr>
+      <tr><td colspan="2" align="center"><input type="submit" value="Saqlash" formaction="submit/submit.html" /></td></tr>
+    </form>
+    </table> 
+</body>
+</html>
